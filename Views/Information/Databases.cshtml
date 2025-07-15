@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Database Fundamentals";
+    Layout = "~/Views/Shared/_NewspaperLayout.cshtml";
+}
+
+<header class="newspaper-header">
+    <h1>Digital Oil</h1>
+    <hr class="purple-divider">
+    <div class="date-line">Made 7/14/25 • @DateTime.Today.ToString("MMMM d, yyyy")</div>
+</header>
+
+<article class="newspaper-article">
+    <h2 class="article-title">The Modern Database</h2>
+    <div class="article-meta">An age of Digital Storage
+    </div>
+    <break/>
+    <div class="article-columns">
+        <p class="drop-cap">
+            Databases are so prevalent in everyone’s lives and sometimes may feel invasive. User profiles can be created on consumers or "people" storing their
+            information for better business efficiency in marketing products, inventory management, and future business decisions. Data storage has gotten much cheaper and more efficient
+            because of SSD'S or Solid-State Drives.
+
+        </p>
+
+        <h3 class="section-heading">Relational Databases</h3>
+        <p>
+            Invented in the 1970s relational databases are the most popular type used today. Other types like Object-Oriented ones were invented later, but the price of them was initially
+            costly enough for weak adaptation. Data is organized into tables with columns and rows, each table having a distinct primary key for each row and being connected to
+            other tables by the primary which becomes a foreign key when its placed into another table to join them.
+        </p>
+
+        <div class="pull-quote">
+            "Buying is a profound pleasure."- Simone de Beauvoir
+        </div>
+
+        <h3 class="section-heading">Alternatives</h3>
+        <p>Alternative is being used a bit liberally here. More so this is just a way to say that databases don't have to be digital. An encyclopedia can be a database</p>
+    </div>
+</article>

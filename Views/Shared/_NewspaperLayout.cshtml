@@ -1,0 +1,101 @@
+﻿@{
+    Layout = "_Layout"; // Inherits your main layout
+}
+
+<style>
+    :root {
+        --lavender: #e6e6fa;
+        --light-purple: #d8bfd8;
+        --deep-purple: #9370db;
+        --text-color: #333;
+    }
+
+    /* this is the container for the newspaper itself */
+    .newspaper-container {
+        max-width: 900px;
+        margin: 2rem auto;
+        padding: 2rem;
+        background: white;
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        column-count: 2;
+        column-gap: 40px;
+    }
+
+    /*this is the styling for the header */
+    .newspaper-header {
+        column-span: all;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    h1 {
+        font-family: 'Old English Text MT', 'Times New Roman', serif;
+        color: var(--deep-purple);
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .purple-divider {
+        border: 1px solid var(--light-purple);
+        border-width: 1px 0 0 0;
+        margin: 0.5rem 0;
+    }
+
+    .date-line {
+        color: var(--deep-purple);
+        font-style: italic;
+    }
+
+    /* this is the styling for the article(not text but like newspaper article */
+    .article-title {
+        column-span: all;
+        color: var(--deep-purple);
+        border-bottom: 2px dotted var(--light-purple);
+        padding-bottom: 0.5rem;
+    }
+
+    .drop-cap:first-letter {
+        float: left;
+        font-size: 3rem;
+        line-height: 1;
+        padding-right: 8px;
+        color: var(--deep-purple);
+    }
+
+    .pull-quote {
+        font-style: italic;
+        font-size: 1.2rem;
+        color: var(--deep-purple);
+        border-left: 3px solid var(--light-purple);
+        padding-left: 1rem;
+        margin: 1rem 0;
+    }
+
+    .section-heading {
+        color: var(--deep-purple);
+        margin-top: 1.5rem;
+        border-bottom: 1px solid var(--lavender);
+    }
+
+    /* this is to intergrate the nav bar */
+    .navbar {
+        background: rgba(230, 230, 250, 0.9) !important;
+        backdrop-filter: blur(10px);
+    }
+
+    .nav-link {
+        color: var(--deep-purple) !important;
+        font-weight: 500;
+    }
+
+    @@media (max-width: 768px) {
+        .newspaper-container {
+            column-count: 1;
+            padding: 1rem;
+        }
+    }
+</style>
+
+<div class="newspaper-container">
+    @RenderBody()
+</div>
