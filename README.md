@@ -15,7 +15,7 @@ This is built using the ASP.NET Core MCV.
 
 ```diff
 
-+ I think the gif is very high quality
++ email - jcarpentere5291@gmail.com
 
 ```
 
