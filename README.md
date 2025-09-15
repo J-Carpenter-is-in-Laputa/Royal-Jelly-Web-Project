@@ -2,7 +2,7 @@
 This is built using ASP.NET Core MCV. 
 - Code Editor used was Visual Studio Community 2022 and sql server express for the database.
 - If you want to run the code you'll need to reconfigure the appsettings.json file for what database you use and update the database in the terminal.
-- I recommend using the code editor I used for installing the Microsoft design, Microsoft tool, and Microsoft sql server packages I used to make this. 
+- I recommend using the code editor I used for installing the Microsoft design, Microsoft tool, and Microsoft sql server packages.
 
 
 <div align="center">
