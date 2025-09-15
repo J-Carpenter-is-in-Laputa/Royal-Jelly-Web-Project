@@ -1,8 +1,8 @@
 # Royal-Jelly-Web-Project
-This is built using the ASP.NET Core MCV. 
-- Code Editor used was Visual Studio Community 2022 also used sql server express.
-- If you want to run the code you'll need to reconfigure the appsettings.json file and update the database in the terminal.
-- I also recommend using the code editor I used and Installing Microsoft design,tool, and sql server packages 
+This is built using ASP.NET Core MCV. 
+- Code Editor used was Visual Studio Community 2022 and sql server express for the database.
+- If you want to run the code you'll need to reconfigure the appsettings.json file for what database you use and update the database in the terminal.
+- I recommend using the code editor I used for installing the Microsoft design, Microsoft tool, and Microsoft sql server packages I used to make this. 
 
 
 <div align="center">
@@ -15,7 +15,7 @@ This is built using the ASP.NET Core MCV.
 
 ```diff
 
-+ email - jcarpentere5291@gmail.com
++ email - jcarpentere5291@gmail.com (if you have any questions or just comment on here) 
 - gif quality could be better
 
 ```
